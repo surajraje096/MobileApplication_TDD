@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46227" started-at="2020-07-07T07:36:41 IST" finished-at="2020-07-07T07:37:27 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="ProtoCommerceTest.loginPageTitleTest()[pri:1, instance:com.wordpress.qa.testcases.ProtoCommerceTest@3cb1ffe6]" name="loginPageTitleTest" class="com.wordpress.qa.testcases.ProtoCommerceTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="46227" started-at="2020-07-07T07:36:41 IST" finished-at="2020-07-07T07:37:27 IST">
+      <class name="com.wordpress.qa.testcases.ProtoCommerceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.ProtoCommerceTest@3cb1ffe6]" name="setup" is-config="true" duration-ms="20614" started-at="2020-07-07T07:36:41 IST" finished-at="2020-07-07T07:37:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.wordpress.qa.testcases.ProtoCommerceTest@3cb1ffe6]" name="loginPageTitleTest" duration-ms="25025" started-at="2020-07-07T07:37:02 IST" finished-at="2020-07-07T07:37:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.ProtoCommerceTest@3cb1ffe6]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-07-07T07:37:27 IST" finished-at="2020-07-07T07:37:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=ProtoCommerceTest.loginPageTitleTest()[pri:1, instance:com.wordpress.qa.testcases.ProtoCommerceTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.qa.testcases.ProtoCommerceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
